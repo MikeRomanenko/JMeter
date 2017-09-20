@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  sh '/Users/fsi/Desktop/apache-jmeter-3.2/apache-jmeter-3.2/bin/jmeter.bat -n -t /Program Files (x86)/Jenkins/Jenkins_demo1.jmx -l test.jtl'
+  }
